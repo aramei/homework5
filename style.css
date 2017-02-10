@@ -1,0 +1,35 @@
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.header {
+
+}
+
+.navbar {
+
+}
+
+.navbar ul {
+	width: 100%;
+	padding: 8px;
+}
+
+.navbar li {
+	display: inline-block;
+	float: left;
+    
+    background-color: #dddddd;
+    padding: 1.5% 2%;
+	border-right: 1px solid #bfbfbf;
+}
+
+.navbar li a {
+	text-decoration: none;
+	display: block;
+}
+
+.topbar {
+	display: inline-block;
+}
