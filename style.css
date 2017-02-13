@@ -1,6 +1,22 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 300px;
+	background-color: grey;
+	min-width: 100%;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
+	z-index: 2;
+	position: absolute;
+	left: 4%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .header {
@@ -8,28 +24,99 @@
 }
 
 .navbar {
-
+	display: block;
+	text-align: left;
+	padding: 0;
 }
 
 .navbar ul {
-	width: 100%;
-	padding: 8px;
+
 }
 
 .navbar li {
 	display: inline-block;
-	float: left;
-    
-    background-color: #dddddd;
-    padding: 1.5% 2%;
+	background: #080808;
+	padding: 1.5% 2%;
 	border-right: 1px solid #bfbfbf;
+	width: calc(100% / 4 - 5%);
+	color: grey;
 }
 
 .navbar li a {
 	text-decoration: none;
-	display: block;
+	color: grey;
 }
 
 .topbar {
+	text-align: center;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 30px;
+	color: white;
+}
+
+.topbar button {
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: white;
+	background: #337ab7;
+	border: none;
+}
+
+.row {
+}
+
+.column {
 	display: inline-block;
+    vertical-align: top;
+	width: calc(32% - 20px * 2);
+	margin: 10px 20px;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+.column a {
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	background: white;
+	color: #333;
+	border: 1px solid #adadad;
+}
+
+.column img {
+	width: 100px;
+	height: 100px;
+}
+
+.left {
+	display: inline-block;
+}
+
+.right {
+	display: inline-block;
+}
+
+.left img {
+	float: right;
+	margin: 15px 0 15px 15px;
+}
+
+.right img {
+	float: left;
+	margin: 15px 15px 15px 0;
+}
+
+
+.footer {
+	margin-top: 75px;
+	margin-bottom: 15px;
+}
+
+.left h1 {
+	color: #777;
+}
+
+.right h1 {
+	color: #777;
 }
